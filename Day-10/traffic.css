@@ -1,0 +1,28 @@
+.div-red{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+.div-green{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+.div-orange{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: orange;
+}
+#div-traffic{
+    border: 1px solid black;
+    height: 360px;
+    width: 100px;
+    padding: 10px;
+
+}
