@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.card-container {
+  width: 250px;
+  height: 280px;
+}
+.image {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.restaurent-container {
+  display: flex;
+  gap: 20px;
+  width: 790px;
+  flex-wrap: wrap;
+}
