@@ -1,51 +1,99 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 .Header {
   display: flex;
   justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px 20px;
 }
-.Bakery-icon {
-  height: 50px;
+.Bakery-logo {
   width: 100px;
+  height: 50px;
 }
-.Items {
+.Header-text {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
-.icons {
-  gap: 40px;
+.Header-icons {
+  display: flex;
+  gap: 30px;
 }
-.hero-container {
+.Hero-section {
   background-image: url("images/background-color.jpeg");
   width: 100vw;
-  height: 400px;
-}
-.hero-image {
-  width: 45vw;
-  height: 400px;
-}
-.hero-container {
+  height: 500px;
   display: flex;
   justify-content: space-between;
 }
-.hero-para {
+.Hero-image {
+  width: 45vw;
+  height: 500px;
   display: flex;
-  margin-top: 20px;
 }
 .hero-text {
+  height: 500px;
   display: flex;
   flex-direction: column;
+  margin-left: 200px;
+  align-items: center;
+  margin-top: 100px;
+}
+.Hero-header {
+  align-items: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.Hero-para {
+  align-items: center;
+  margin-bottom: 100px;
+}
+.Readmore-button {
+  border: 0px;
+  background-color: #e2781a;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  width: 150px;
+}
+.Sweet-section {
+  background-image: url("images/background-image2.jpeg");
+  height: 600px;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Sweet-head {
+  color: white;
+  font-size: 50px;
+  display: flex;
   align-items: center;
   margin-left: 45%;
+  padding-top: 30px;
 }
-.Hero-readmore-button {
-  width: 60px;
-  background-color: blue;
+.Sweet-card-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  height: 200px;
+  width: 150px;
+  margin-left: 30px;
+}
+.Sweet-items {
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card-main-container {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
 }
