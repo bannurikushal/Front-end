@@ -82,7 +82,7 @@
   flex-direction: column;
   border-radius: 10px;
   padding: 20px;
-  height: 200px;
+  height: 250px;
   width: 250px;
   margin-left: 30px;
 }
@@ -102,18 +102,16 @@
   margin-top: 150px;
 }
 .Our-bread-container {
-  height: 1000px;
-  width: 100vw;
+  height: 1500px;
+  width: 99vw;
   background-color: #e8b284;
-  display: flex;
-  flex-wrap: wrap;
 }
 .Bread-card {
   width: 350px;
   height: 600px;
   background-color: white;
   gap: 20px;
-  display: flex;
+  /* display: flex; */
 }
 .Bread-image {
   width: 300px;
@@ -135,6 +133,7 @@
   margin-top: 10px;
   margin-left: 15px;
   font-size: 15px;
+  font-style: italic;
 }
 .Bread-button {
   background-color: black;
@@ -147,8 +146,57 @@
   margin-left: 15px;
 }
 .Bread-card-container {
-  margin-top: 60px;
+  margin-top: 0px;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.Our-bread-header {
+  margin-bottom: 10px;
+  align-items: center;
+  margin-left: 630px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: bold;
+  font-size: 58px;
+}
+.Subscribe-container {
+  background-image: url("images/Subscribe\ image.jpg");
+  height: 600px;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Subscribe-header {
+  color: white;
+  display: flex;
+  margin-bottom: 70px;
+  padding-top: 120px;
+  font-size: 50px;
+  padding-left: 150px;
+}
+.Subscribe-sub-header {
+  color: white;
+  margin-bottom: 100px;
+  padding-top: 0px;
+  font-size: 25px;
+  padding-left: 150px;
+}
+.Submit-button {
+  background-color: #e2781a;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  border: 0px;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  margin-left: 45%;
 }
