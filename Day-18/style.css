@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  align-items: center;
+}
+.Header-text {
+  color: rgb(185, 181, 181);
+  font-size: 30px;
+}
+.Hero-section {
+  height: 700px;
+  width: 100vw;
+  background-image: url("image/Hero\ image");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 250px;
+  padding-top: 250px;
+}
+.Hero-text {
+  background-color: white;
+  width: 500px;
+  height: 330px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.Hero-header {
+  font-size: 48px;
+  margin-left: 40px;
+}
+.Readmore-button {
+  background-color: #f7bc08;
+  color: black;
+  width: 150px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  border: 0px;
+  margin-top: 60px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Hero-para {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.Winning-container {
+  background-color: #e5e5e5;
+  height: 700px;
+  width: 100vw;
+}
+.Winning-para {
+  margin-top: 60px;
+  margin-right: 200px;
+  font-size: 16px;
+}
+.Winning-header {
+  font-size: 54px;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.Winning-text {
+  display: flex;
+  justify-content: space-between;
+}
+.Winning-card {
+  background-color: white;
+  height: 400px;
+  width: 480px;
+  border-radius: 20px;
+  margin-top: 50px;
+  align-items: flex-start;
+}
+.Winning-button {
+  background-color: #f7bc08;
+  color: white;
+  width: 100px;
+  border: 0px;
+  font-size: 30px;
+  border-radius: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  margin-left: 120px;
+}
+.Winning-para {
+  display: flex;
+  margin-left: 50px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
