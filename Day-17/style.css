@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .Header {
   display: flex;
@@ -82,7 +83,7 @@
   border-radius: 10px;
   padding: 20px;
   height: 200px;
-  width: 150px;
+  width: 250px;
   margin-left: 30px;
 }
 .Sweet-items {
@@ -91,9 +92,63 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 10px;
 }
 .card-main-container {
   display: flex;
   margin-top: 40px;
   align-items: center;
+  margin-left: 250px;
+  margin-top: 150px;
+}
+.Our-bread-container {
+  height: 1000px;
+  width: 100vw;
+  background-color: #e8b284;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Bread-card {
+  width: 350px;
+  height: 600px;
+  background-color: white;
+  gap: 20px;
+  display: flex;
+}
+.Bread-image {
+  width: 300px;
+  height: 300px;
+  margin-left: 25px;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+.bread-name {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.Bread-price {
+  color: #e2781a;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.Bread-para {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+.Bread-button {
+  background-color: black;
+  color: white;
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.Bread-card-container {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
