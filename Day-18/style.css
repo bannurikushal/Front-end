@@ -34,6 +34,7 @@
 .Hero-header {
   font-size: 48px;
   margin-left: 40px;
+  padding-top: 30px;
 }
 .Readmore-button {
   background-color: #f7bc08;
@@ -55,7 +56,7 @@
 }
 .Winning-container {
   background-color: #e5e5e5;
-  height: 700px;
+  height: 680px;
   width: 100vw;
 }
 .Winning-para {
@@ -74,11 +75,10 @@
 }
 .Winning-card {
   background-color: white;
-  height: 400px;
-  width: 480px;
+  height: 350px;
+  width: 400px;
   border-radius: 20px;
   margin-top: 50px;
-  align-items: flex-start;
 }
 .Winning-button {
   background-color: #f7bc08;
@@ -86,20 +86,95 @@
   width: 100px;
   border: 0px;
   font-size: 30px;
-  border-radius: 100%;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: bold;
-  margin-left: 120px;
+  margin-left: 35%;
 }
 .Winning-para {
   display: flex;
   margin-left: 50px;
   font-size: 20px;
   box-sizing: border-box;
+  width: 600px;
 }
 .card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+}
+.Winning-card-para {
+  width: 300px;
+  color: #999999;
+  font-size: 20px;
+  margin: 30px 40px;
+}
+.Winning-card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.Category-container {
+  background-color: #f7bc08;
+  width: 100vw;
+  height: 1000px;
+}
+.category-image {
+  object-fit: cover;
+  object-position: center;
+  height: 600px;
+  width: 100vw;
+}
+.Category-card {
+  width: 350px;
+  height: 290px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+}
+.Category-Font-button {
+  background-color: #f7bc08;
+  color: white;
+  width: 70px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 50%;
+  border: none;
+  font-size: larger;
+}
+.Category-header {
+  margin-left: 20px;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.Category-button {
+  width: 100px;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.category-text {
+  width: 180px;
+  height: 300px;
+}
+.Arrow-font {
+  color: #f7bc08;
+}
+.Category-para {
+  padding-top: 20px;
+  font-size: 16px;
+  color: rgb(207, 202, 202);
+}
+.Arrow-font {
+  margin-top: 40px;
+  font-size: 30px;
+}
+.Category-container-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 220px;
 }
