@@ -25,6 +25,9 @@ caption {
   font-size: 20px;
   font-weight: bold;
 }
-table tr :nth-child(even) {
-  background-color: rgb(153, 152, 151);
+td :nth-last-child(even) {
+  background-color: bisque;
+}
+tr :hover {
+  background-color: gray;
 }
