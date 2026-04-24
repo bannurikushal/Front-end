@@ -6,9 +6,26 @@
 body {
   height: 100hv;
   width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main-Container {
-  background-color: aqua;
   width: 400px;
-  height: 700px;
+  height: 650px;
+  background-image: url("./image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text {
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60%;
+  margin-left: 28%;
+  font-size: larger;
+  font-family: "Quicksand", sans-serif;
+  color: #52796f;
 }
