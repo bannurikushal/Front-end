@@ -7,33 +7,40 @@
   </head>
   <body>
     <h1>Registration form</h1>
-    <label>First Name:</label>
-    <input type="text" />
-    <br />
-    <label>Last Name:</label>
-    <input type="text" />
-    <br />
-    <label>Enter Password:</label>
-    <input type="password" />
-    <br />
-    <label>Gender:</label>
-    <br />
-    <input type="radio" name="Gender" id="Male" />
-    <label for="Male">Male</label>
-    <input type="radio" name="Gender" id="Female" />
-    <label for="Female">Female</label>
-    <input type="radio" name="Gender" id="Others" />
-    <label for="Others">Others</label>
-    <br />
-    <label>Skills</label>
-    <br />
-    <input type="checkbox" id="JAVA" />
-    <label for="JAVA">JAVA</label>
-    <input type="checkbox" id="CSS" />
-    <label for="CSS">CSS</label>
-    <input type="checkbox" id="JS" />
-    <label for="JS">JS</label>
-    <input type="checkbox" id="SQL" />
-    <label for="SQL">SQL</label>
+    <form>
+      <label>First Name:</label>
+      <input type="text" name="First" required />
+      <br />
+      <label>Last Name:</label>
+      <input type="text" name="Last" required />
+      <br />
+      <label>Enter Password:</label>
+      <input type="password" name="Password" required />
+      <br />
+      <label>Gender:</label>
+      <br />
+      <input type="radio" name="Gender" id="Male" />
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender" id="Female" />
+      <label for="Female">Female</label>
+      <input type="radio" name="Gender" id="Others" />
+      <label for="Others">Others</label>
+      <br />
+      <label>Skills</label>
+      <br />
+      <input type="checkbox" id="JAVA" />
+      <label for="JAVA">JAVA</label>
+      <input type="checkbox" id="CSS" />
+      <label for="CSS">CSS</label>
+      <input type="checkbox" id="JS" />
+      <label for="JS">JS</label>
+      <input type="checkbox" id="SQL" />
+      <label for="SQL">SQL</label>
+      <br />
+      <label>Address:</label>
+      <textarea></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
