@@ -19,3 +19,11 @@
   margin-left: 70px;
   margin-top: 20px;
 }
+.Text {
+  width: 450px;
+  font-size: large;
+  font-family: "Quicksand", sans-serif;
+}
+.color-text {
+  color: 90deg, #ff7a18, #ff4da6, #d94bff;
+}
