@@ -19,11 +19,26 @@
   margin-left: 70px;
   margin-top: 20px;
 }
+.text-container {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  padding-bottom: 150px;
+}
 .Text {
-  width: 450px;
-  font-size: large;
-  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  font-family:
+    "Quicksand",
+    Instagram Sans Regular;
+  text-align: center;
 }
 .color-text {
-  color: 90deg, #ff7a18, #ff4da6, #d94bff;
+  background-image: linear-gradient(to right, #ff5c00, #ff0069, #d300c5);
+}
+.image-container {
+  background-image: url("./insta.html");
 }
