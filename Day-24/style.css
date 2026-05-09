@@ -42,3 +42,7 @@
 .image-container {
   background-image: url("./insta.html");
 }
+.second-child {
+  width: 50vw;
+  height: 100vw;
+}
