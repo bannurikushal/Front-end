@@ -13,16 +13,16 @@
 }
 .images-container {
   height: 100vh;
-  width: 50vw;
+  width: 45vw;
   border: 2px;
   border-color: black;
 }
 .form-container {
   height: 100vh;
-  width: 50vw;
+  width: 45vw;
 }
 .insta-logo {
-  width: 50vw;
+  width: 45vw;
   height: 40vh;
   background-image: url("./insta\ logo.webp");
   background-repeat: no-repeat;
