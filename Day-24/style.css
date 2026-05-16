@@ -35,13 +35,13 @@
   width: 450px;
   margin-top: 100px;
 }
-.image {
-  margin-top: 250px;
-}
 .close-friends {
   background-image: linear-gradient(to right, #ff5c00, #ff0069, #d300c5);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+.log-into {
+  padding-right: 190px;
 }
 .mobile-number {
   border: 1px solid gray;
@@ -61,7 +61,13 @@
 .form-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
+  align-items: center;
+  margin-top: 150px;
+  input:hover {
+    height: 60px;
+    border: 2px solid grey;
+  }
 }
 .submiit {
   width: 400px;
@@ -74,7 +80,7 @@
 }
 .forget-password {
   font-family: "Quicksand", sans-serif;
-  margin-left: 120px;
+  margin-left: 50px;
   cursor: pointer;
 }
 .login {
@@ -90,4 +96,19 @@
   i {
     color: blue;
   }
+}
+.create-button {
+  border: 1px solid #48cae4;
+  width: 400px;
+  padding: 10px;
+  border-radius: 15px;
+  padding: 15px;
+  color: #48cae4;
+}
+.facebook-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 150px;
 }
