@@ -11,7 +11,7 @@
 // even(10);
 function factorial(n) {
   if (n === 0 || n === 1) {
-    console.log("number is factorial n");
+    console.log(n + "number is factorial n");
   }
-  factorial(5);
+  factorial(4);
 }
