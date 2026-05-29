@@ -9,9 +9,15 @@
 //   console.log(num % 2 === 0 ? "Even" : "Odd");
 // }
 // even(10);
-function factorial(n) {
-  if (n === 0 || n === 1) {
-    console.log(n + "number is factorial n");
+// function factorial(n) {
+//   if (n === 0 || n === 1) {
+//     console.log(n + "number is factorial n");
+//   }
+//   factorial(4);
+// }
+function prime(n, i) {
+  if (n % i === 0) {
+    console.log(n + "number is prime");
   }
-  factorial(4);
+  prime(2, 2);
 }
