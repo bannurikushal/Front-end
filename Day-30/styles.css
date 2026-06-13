@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.Header-container {
+  background-color: #063231;
+  background-image: url("images/header1.jpg");
+  width: 100v;
+  height: 730px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
