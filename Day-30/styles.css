@@ -3,7 +3,7 @@
   border: 0;
   box-sizing: border-box;
 }
-.Header-container {
+.Home-container {
   background-color: #063231;
   background-image: url("images/header1.jpg");
   width: 100v;
@@ -24,4 +24,7 @@
   border-color: #cbff54;
   font-weight: bold;
   cursor: pointer;
+}
+.logo {
+  height: 76px;
 }
