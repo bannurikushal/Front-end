@@ -44,3 +44,13 @@
 .Home-text {
   color: #cbff54;
 }
+.Home-section-conatiner {
+  border: 1px solid black;
+  width: 700px;
+  height: 400px;
+}
+.Home-header-button {
+  padding: 5px;
+  width: 210px;
+  color: #ffffff;
+}
