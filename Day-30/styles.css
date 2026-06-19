@@ -56,16 +56,24 @@
 .Home-header-button {
   padding: 5px;
   width: 210px;
-  color: #ffffff;
+  background-color: rgba(128, 128, 128, 0.5);
   border-radius: 30px;
+}
+.Button-container {
+  display: flex;
+  gap: 30px;
 }
 .Enqurire-button {
   padding: 15px;
   border-radius: 30px;
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
   width: 190px;
 }
 .View-button {
   padding: 15px;
   border-radius: 30px;
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
   width: 190px;
 }
