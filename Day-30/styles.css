@@ -52,19 +52,30 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  gap: 20px;
+  margin-left: 150px;
 }
+
 .Home-header-button {
   padding: 5px;
   width: 210px;
   background-color: rgba(128, 128, 128, 0.5);
   border-radius: 30px;
+  color: white;
+  font-weight: bold;
 }
 .Highlight-container {
-  width: 600px;
-  font-size: 30px;
-  padding: 30px;
+  font-size: 40px;
   color: white;
-  margin-left: 30px;
+  width: 700px;
+  text-align: center;
+}
+.Para-text {
+  color: white;
+  text-align: center;
+  width: 700px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 .Button-container {
   display: flex;
@@ -73,9 +84,10 @@
 .Enqurire-button {
   padding: 15px;
   border-radius: 30px;
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: #cbff54;
   cursor: pointer;
   width: 190px;
+  font-weight: bold;
 }
 .View-button {
   padding: 15px;
@@ -83,4 +95,6 @@
   background-color: rgba(128, 128, 128, 0.5);
   cursor: pointer;
   width: 190px;
+  color: white;
+  font-weight: bold;
 }
