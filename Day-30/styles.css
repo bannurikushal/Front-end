@@ -143,3 +143,12 @@
   font-family: "Roboto", sans-serif;
   color: #495b55;
 }
+.About-image-container {
+  width: 550px;
+  height: 470px;
+  background-image: url("images/About-Img-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
+}
