@@ -102,7 +102,7 @@
 }
 .Hero-section {
   width: 99vw;
-  height: 1000px;
+  height: 500px;
 }
 .Card-container {
   width: 1200px;
@@ -160,17 +160,18 @@
 }
 .About-section {
   width: 90vw;
-  height: 1000px;
+  height: 200px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 65px;
+  padding: 100px;
 }
 .About-text-container {
-  width: 500px;
-  height: 1000px;
+  width: 600px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 20px;
+  margin-left: 100px;
 }
 .About-icon {
   border-radius: 50%;
@@ -179,4 +180,21 @@
   color: #ffffff;
   margin-bottom: 10px;
   margin-right: 5px;
+}
+.About-text {
+  font-family: "Roboto", sans-serif;
+}
+.About-Heading {
+  font-size: 54px;
+
+  font-family: "Inter", sans-serif;
+}
+.About-para {
+  font-size: 17px;
+  color: #495b55;
+  font-family: "Roboto", sans-serif;
+}
+.Icon-text {
+  color: #495b55;
+  font-family: "Roboto", sans-serif;
 }
