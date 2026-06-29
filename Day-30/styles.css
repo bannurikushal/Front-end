@@ -200,19 +200,22 @@
 }
 .Service-Container {
   width: 99vw;
-  height: 700px;
+  height: 900px;
   background-color: #f8f9fa;
   margin-top: 450px;
+}
+.Service-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .Service-text {
   width: 700px;
   height: 200px;
   display: flex;
   flex-direction: column;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  align-self: center;
+  align-items: center;
 }
 .service-para {
   font-size: 14px;
@@ -222,4 +225,18 @@
 .Services-heading {
   font-size: 54px;
   font-family: "Inter", sans-serif;
+  text-align: center;
+  margin-bottom: 350px;
+}
+.Service-Image-card-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500px;
+  height: 500px;
+  width: 800px;
+}
+.Service-card {
+  height: 400px;
 }
