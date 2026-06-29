@@ -160,7 +160,7 @@
 }
 .About-section {
   width: 90vw;
-  height: 200px;
+  height: 1000px;
   display: flex;
   margin-left: 65px;
   padding: 100px;
@@ -197,4 +197,29 @@
 .Icon-text {
   color: #495b55;
   font-family: "Roboto", sans-serif;
+}
+.Service-Container {
+  width: 99vw;
+  height: 700px;
+  background-color: #f8f9fa;
+  margin-top: 450px;
+}
+.Service-text {
+  width: 700px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.service-para {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.Services-heading {
+  font-size: 54px;
+  font-family: "Inter", sans-serif;
 }
