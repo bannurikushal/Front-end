@@ -4,13 +4,16 @@
   box-sizing: border-box;
 }
 .Home-container {
-  background-color: #063231;
   background-image: url("images/header1.jpg");
   width: 99vw;
   height: 730px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #063231;
+  background-blend-mode: multiply;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 
 .Header-container {
@@ -102,7 +105,7 @@
 }
 .Hero-section {
   width: 99vw;
-  height: 500px;
+  /* height: 500px; */
 }
 .Card-container {
   width: 1200px;
@@ -160,7 +163,6 @@
 }
 .About-section {
   width: 90vw;
-  height: 1000px;
   display: flex;
   margin-left: 65px;
   padding: 100px;
@@ -202,16 +204,16 @@
   width: 99vw;
   height: 900px;
   background-color: #f8f9fa;
-  margin-top: 450px;
 }
 .Service-Container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .Service-text {
+  height: 100px !important;
   width: 700px;
-  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -233,8 +235,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  margin-top: 500px;
-  height: 500px;
+  /* height: 500px; */
   width: 800px;
 }
 .Service-card {
