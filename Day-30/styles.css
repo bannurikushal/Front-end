@@ -140,6 +140,7 @@
   font-family: "Inter", sans-serif;
   font-size: 24px;
   margin-bottom: 20px;
+  color: #063231;
 }
 .Para {
   font-size: 16px;
@@ -188,7 +189,7 @@
 }
 .About-Heading {
   font-size: 54px;
-
+  color: #063231;
   font-family: "Inter", sans-serif;
 }
 .About-para {
@@ -202,7 +203,6 @@
 }
 .Service-Container {
   width: 99vw;
-  height: 900px;
   background-color: #f8f9fa;
 }
 .Service-Container {
@@ -212,31 +212,31 @@
   flex-direction: column;
 }
 .Service-text {
-  height: 100px;
-  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 120px;
+  width: 700px;
 }
 .service-para {
   font-size: 14px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+  color: #063231;
 }
 .Services-heading {
   font-size: 54px;
   font-family: "Inter", sans-serif;
   text-align: center;
   margin-bottom: 350px;
+  color: #063231;
 }
 .Service-Image-card-container {
   display: flex;
   gap: 20px;
   align-items: center;
   justify-content: center;
-  width: 800px;
 }
 .Service-card {
   height: 400px;
@@ -246,7 +246,7 @@
 .Service-text-card-container {
   /* width: 800px; */
   display: flex;
-  gap: 20px;
+  gap: 80px;
 }
 .Service-text-card {
   width: 321px;
@@ -256,8 +256,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+  gap: 10px;
+  margin-top: -145px;
   img {
     height: 100px;
     width: 100px;
@@ -266,5 +269,19 @@
 .Service-text-card-heading {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
+  color: #063231;
+}
+.Service-text-card-para {
+  color: #495b55;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.Service-text-card-button {
+  background-color: white;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  color: #063231;
 }
