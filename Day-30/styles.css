@@ -204,6 +204,7 @@
 .Service-Container {
   width: 99vw;
   background-color: #f8f9fa;
+  padding: 50px;
 }
 .Service-Container {
   display: flex;
@@ -284,4 +285,13 @@
   cursor: pointer;
   font-weight: bold;
   color: #063231;
+}
+.Our-project-text-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.Our-project-text {
+  display: flex;
+  flex-direction: column;
 }
