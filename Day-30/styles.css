@@ -340,4 +340,8 @@
 }
 .Our-project-image-container {
   padding-left: 150px;
+  padding-bottom: 100px;
+}
+.Contact-Banner-container {
+  background-image: url("images/Banner.png");
 }
