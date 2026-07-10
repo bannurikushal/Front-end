@@ -352,5 +352,8 @@
   background-blend-mode: multiply;
   height: 317px;
   width: 99vw;
+}
+.Contact-Banner-text {
   display: flex;
+  flex-direction: column;
 }
