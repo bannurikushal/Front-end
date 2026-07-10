@@ -348,7 +348,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #063231;
+  background-color: aliceblue;
   background-blend-mode: multiply;
   height: 317px;
   width: 99vw;
+  display: flex;
 }
