@@ -347,13 +347,31 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #063231;
-  background-color: aliceblue;
+
   background-blend-mode: multiply;
   height: 317px;
   width: 99vw;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 150px;
 }
 .Contact-Banner-text {
+  width: 600px;
+  height: 110px;
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+.Contact-Banner-heading {
+  font-size: 42px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.Contact-Banner-para {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
