@@ -408,3 +408,22 @@
   flex-direction: column;
   gap: 20px;
 }
+.First-heading {
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  color: #063231;
+}
+.Second-heading {
+  color: #063231;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+.Card-para {
+  color: #495b55;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.Trust-card-container {
+  display: flex;
+  gap: 20px;
+}
