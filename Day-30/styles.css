@@ -379,4 +379,29 @@
   width: 1200px;
   height: 482px;
   display: flex;
+  gap: 50px;
+}
+.Trust-Image {
+  width: 508px;
+  height: 620px;
+  border-radius: 25px;
+}
+.Trust-heading-para {
+  color: #063231;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+.Trust-heading {
+  font-size: 54px;
+  font-family: "Inter", sans-serif;
+  color: #063231;
+}
+.Trust-para {
+  font-size: 16px;
+  color: #495b55;
+  font-family: "Roboto", sans-serif;
+}
+.Trust-text-container {
+  width: 575px;
+  height: 620px;
 }
