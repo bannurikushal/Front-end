@@ -375,3 +375,8 @@
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
+.Trust-container {
+  width: 1200px;
+  height: 482px;
+  display: flex;
+}
