@@ -428,3 +428,23 @@
   display: flex;
   gap: 20px;
 }
+.Trust-image-card {
+  width: 179px;
+  height: 121px;
+  background-color: #cbff54;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 32px;
+  color: #063231;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-top: -30px;
+}
+.Trust-card-image-text {
+  color: #063231;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
