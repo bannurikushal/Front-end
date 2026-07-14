@@ -380,6 +380,7 @@
   height: 482px;
   display: flex;
   gap: 50px;
+  padding: 150px;
 }
 .Trust-Image {
   width: 508px;
