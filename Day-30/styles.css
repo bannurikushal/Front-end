@@ -378,7 +378,7 @@
 .Trust-container {
   display: flex;
   gap: 50px;
-  margin: 150px;
+  padding: 150px;
 }
 .Trust-Image {
   width: 508px;
@@ -389,6 +389,7 @@
   color: #063231;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 .Trust-heading {
   font-size: 54px;
@@ -445,4 +446,28 @@
   color: #063231;
   font-size: 24px;
   font-family: "Inter", sans-serif;
+}
+.Why-smd-container {
+  background-color: #f8f9fa;
+  display: flex;
+}
+.Why-smd-text-container {
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Why-smd-card {
+  background-color: #ffffff;
+  width: 278px;
+  height: 280px;
+  padding: 50px;
+  border-radius: 25px;
+}
+.Why-smd-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: 575px;
 }
