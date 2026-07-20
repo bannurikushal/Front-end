@@ -450,24 +450,29 @@
 .Why-smd-container {
   background-color: #f8f9fa;
   display: flex;
+  gap: 150px;
+  padding-bottom: 120px;
 }
 .Why-smd-text-container {
   width: 575px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-left: 150px;
+  padding-top: 120px;
 }
 .Why-smd-card {
   background-color: #ffffff;
   width: 278px;
   height: 280px;
-  padding: 50px;
+  padding: 30px;
   border-radius: 25px;
 }
 .Why-smd-card-container {
   display: flex;
-
+  flex-wrap: wrap;
   gap: 20px;
-
-  width: 575px;
+  width: 590px;
+  /* height: 580px; */
+  padding-top: 120px;
 }
