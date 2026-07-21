@@ -512,3 +512,33 @@
   border-radius: 25px;
   font-weight: bold;
 }
+.Footer-bottom-container {
+  width: 1200px;
+  height: 250px;
+}
+.Footer-image {
+  width: 200px;
+  height: 55px;
+  display: flex;
+  margin-left: -27px;
+}
+.Footer-Text1 {
+  width: 306px;
+  /* padding: 10px; */
+
+  color: #ffffffb8;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Footer-last-text {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.Footer-Icon-container {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+}
