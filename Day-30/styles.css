@@ -479,3 +479,10 @@
 .Footer-container {
   background: #063231;
 }
+.Footer-card-container {
+  width: 1200px;
+  height: 250px;
+  background-color: #cbff54;
+}
+.Footer-Text1 {
+}
