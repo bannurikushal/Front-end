@@ -4,6 +4,6 @@ var a = 7;
 console.log(a);
 function x() {
   var b = 10;
-  console.log(b);
+  console.log(b); // b can print when we call a function
 }
-// x();
+x();
