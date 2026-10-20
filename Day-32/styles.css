@@ -1,8 +1,72 @@
 * {
-  border: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #caf0f8;
+}
+
+.login-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.usericon {
+  height: 150px;
+  width: 150px;
+}
+
+.usernameicon {
+  height: 40px;
+  width: 40px;
+  background-color: #cccccc;
+  padding: 8px;
+}
+
+.passwordicon {
+  height: 40px;
+  width: 40px;
+  background-color: #cccccc;
+  padding: 8px;
+}
+
+.form-container {
+  height: 230px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputfields-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  height: 40px;
+  width: 250px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #a5a5a5;
+  padding: 8px;
+}
+
+.login-button {
+  width: 90%;
+  padding: 10px;
+  color: white;
+  background-color: #001f54;
+  font-size: 20px;
+  border-radius: 5px;
 }
