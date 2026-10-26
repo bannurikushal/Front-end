@@ -28,6 +28,7 @@ function getPassword() {
     console.log("Invalid Password");
   }
 }
+
 function getGender() {
   let maleField = document.getElementById("male");
   let femaleField = document.getElementById("female");
@@ -39,4 +40,13 @@ function getGender() {
   } else {
     console.log("Please select a gender");
   }
+}
+
+function getSubmit() {
+  getFirstName();
+  getLastName();
+  getEmail();
+  getNumber();
+  getPassword();
+  getGender();
 }

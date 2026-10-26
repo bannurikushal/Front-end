@@ -85,6 +85,6 @@ button {
   margin-top: 10px;
 }
 
-/* button:hover {
+button:hover {
   background-color: #923d42;
-} */
+}
