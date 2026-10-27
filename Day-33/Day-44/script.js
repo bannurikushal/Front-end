@@ -22,10 +22,9 @@ function getPassword() {
   let passwordField = document.getElementById("password");
   let confirmPasswordField = document.getElementById("ConfirmPassword");
 
-  if (passwordField.value === confirmPasswordField.value) {
-    console.log(passwordField.value);
-  } else {
-    console.log("Invalid Password");
+  let invalidpasswordField = document.getElementById("invalidpassword");
+  if (password < 8 || password > 16) {
+    console.log("invalid Password");
   }
 }
 
@@ -43,6 +42,7 @@ function getGender() {
 }
 
 function getSubmit() {
+  console.log("ingetsubmit");
   getFirstName();
   getLastName();
   getEmail();

@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="Head-line">STUDENT REGISTRATION FORM</div>
-    <form class="form-container">
+    <div class="form-container">
       <label> FIRST NAME: </label>
       <div class="text-container">
         <input type="text" placeholder="First Name" id="firstName" />
@@ -52,8 +52,15 @@
           >Female</label
         >
       </div>
-      <button id="submit">SUBMIT</button>
-    </form>
+      <button id="submit" onclick="getSubmit()">SUBMIT</button>
+      <span class="less-password" id="less-password">
+        Password is less than 8 charactristics
+      </span>
+      <span class="high-password" id="high-password"
+        >Password is greater than 8 charactristics
+      </span>
+      <span class="miss-match" id="miss-match">The password not match</span>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
