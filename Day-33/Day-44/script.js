@@ -22,9 +22,19 @@ function getPassword() {
   let passwordField = document.getElementById("password");
   let confirmPasswordField = document.getElementById("ConfirmPassword");
 
-  let invalidpasswordField = document.getElementById("invalidpassword");
-  if (password < 8 || password > 16) {
-    console.log("invalid Password");
+  let lesspasswordField = document.getElementById("less-password");
+
+  let highpasswordField = document.getElementById("high-password");
+
+  let missmatchpasswordField = document.getElementById("miss-match");
+  if (password < 8) {
+    lesspasswordField.innerText = "Password is less than 8 charactristics";
+    lesspasswordField.classList.remove("less-password");
+    lesspasswordField.classList.add("less-password");
+  } else if (password > 16) {
+    highpasswordField.innerText = "Password is greater than 8 charactristics";
+    highpasswordField.classList.remove("high-password");
+    highpasswordField.classList.add("high-password");
   }
 }
 
